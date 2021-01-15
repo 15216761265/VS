@@ -1,0 +1,91 @@
+
+.nav{
+  width: 100%;
+  margin-bottom: 70px;
+  height: 50px;
+  position: relative;
+  z-index: 99999;
+}
+
+.bg{
+  width: 1000px;
+  height: 50px;
+  margin: 0 auto;
+  vertical-align: baseline;
+  color: #fff;
+  background: url(../public/hd_bg.png) repeat-x;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.leftpng{
+  margin:12px 0 0 20px;
+  float:left;
+}
+
+.middlepng{
+  float:left;
+  width:480px;
+  height:50px;
+  margin:0 0 0 10px;
+  vertical-align: baseline;
+}
+
+.clearfix{
+  list-style: none;
+  margin:0;
+  padding:0;
+}
+
+.current{
+  color: #333;
+  display: inline-block;
+  height:50px;
+  background: url('../public/hd_nav_bg.png') repeat-x;
+  text-shadow: 0 1px 0 #fc0;
+  padding:0 15px 0px 15px;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  text-decoration: none;
+}
+
+.current em{   
+  display: inline-block;
+  height:50px;
+  line-height:50px;
+  font-family: 'microsoft yahei';
+  vertical-align: middle;
+  font-size:xx-small;
+  font-style:normal;
+  color:#000;
+}
+
+.rightblock{
+  float:right;
+  vertical-align: baseline;
+}
+
+.unlogin{
+  padding-top:10px;
+  margin-left:20px;
+}
+
+.register{
+ color:#bbb;
+ font-weight:bold;
+ text-decoration: none;
+ font-size:xx-small;
+}
+
+.login{
+  margin-left: 20px;
+  margin-right:10px;
+  width:52px;
+  height:30px;
+  font-size:0;
+  line-height:0;
+  overflow: hidden;
+  display: inline-block;
+  background:url('../public/login_btn.png') no-repeat;
+  text-decoration: none;
+}
