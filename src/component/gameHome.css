@@ -55,6 +55,7 @@
 }
 
 .down-con{
+  visibility:hidden;
   width:160px;
 }
 
@@ -63,16 +64,13 @@
 }
 
 .spe-content{
-  /* visibility:hidden; */
+  visibility:hidden;
   width:110px;
   text-align: center;
 }
 
-.toggle:hover+.spe-content{
-  visibility:hidden;
-  /* visibility: visible !important;
-  display: block;
-  opacity:1; */
+.toggle:hover+.spe-content,.toggle1:hover+.down-con{
+  visibility: visible;
 }
 
 i{
@@ -117,4 +115,67 @@ i{
   overflow: hidden;
   font-size: 14px;
   float:none;
+}
+
+.gameBody{
+  background:#fff;
+  box-shadow:0 0 40px #000;
+  min-height:800px;
+}
+
+.gameBodyInner{
+  padding:10px;
+}
+
+.mainBox{
+  background-color: #fff;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  margin:auto;
+}
+
+.gameTop{
+  height: 33px;
+  background-color: rab(71,156,193);
+  border-radius:5px;
+  zoom:1;
+}
+
+.gameTop ul li{
+  float: left;
+  display: inline;
+  border-left: 1px solid rgb(117,181,208);
+  border-right:1px solid rgb(62,144,181);
+}
+
+.gameTop ul li.cur{
+  background: rgb(40,50,70);
+  border-left: none !important;
+  border-right: none !important;
+}
+
+.gameTop ul li.cur a{
+  color: #fff;
+}
+
+.gameTop li.cs a{
+  background: url(../public/miniicon_cs.gif) 10px 8px no-repeat;
+}
+
+.l{
+  float:left!important;
+  display: inline;
+  zoom: 1;
+}
+
+.bln{
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-left:none !important;
+}
+
+.cur{
+  background:rgb(40,50,70);
+  border-left:none !important;
+  border-right:none !important;
 }
